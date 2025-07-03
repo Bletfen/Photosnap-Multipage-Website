@@ -1748,6 +1748,14 @@ PAGE-4-PRICING
 /* DESKTOP */
 
 @media only screen and (min-width: 90rem) {
+  .body-wrapper {
+    max-width: 1440px;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+  }
   .pricing-text-container {
     width: 42%;
     padding: 17.3rem 11.1rem;
